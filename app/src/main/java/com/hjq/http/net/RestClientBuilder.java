@@ -106,9 +106,6 @@ public final class RestClientBuilder {
         return new RestClient(
                 mUrl,
                 PARAMS,
-                mDownloadDir,
-                mExtension,
-                mName,
                 mIRequest,
                 mISuccess,
                 mIFailure,

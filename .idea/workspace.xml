@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecb86baa-e246-4aca-ba6b-301869c4429e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClientBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClientBuilder.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClientBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+            <state relative-caret-position="526">
+              <caret line="109" column="26" lean-forward="true" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#435#451#0" expanded="true" />
@@ -128,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-471">
-              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            <state relative-caret-position="514">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1313#1314#0" expanded="true" />
@@ -203,13 +202,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/callback/RequestCallbacks.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hjq/http/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/download/DownloadHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClientBuilder.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClient.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClientBuilder.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="53" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="37" />
     <option name="y" value="23" />
     <option name="width" value="1916" />
     <option name="height" value="1005" />
@@ -409,7 +408,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1916" height="1005" extended-state="6" />
+    <frame x="37" y="23" width="1916" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32977587" />
@@ -538,27 +537,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClientBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#435#451#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="514">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1313#1314#0" expanded="true" />
             <element signature="e#1359#1360#0" expanded="true" />
             <element signature="e#2551#2552#0" expanded="true" />
             <element signature="e#2590#2591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/RestClientBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="109" column="26" lean-forward="true" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#435#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
