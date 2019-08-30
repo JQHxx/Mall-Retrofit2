@@ -25,9 +25,6 @@ public class RestClient {
     private final ISuccess SUCCESS;
     private final IFailure FAILURE;
     private final IError ERROR;
-    private final String DOWNLOAD_DIR;
-    private final String EXTENSION;
-    private final String NAME;
     private final RequestBody BODY;
     private final File FILE;
     private final Context CONTEXT;
@@ -35,9 +32,6 @@ public class RestClient {
 
     public RestClient(String mUrl,
                       WeakHashMap<String, Object> params,
-                      String download_dir,
-                      String extension,
-                      String name,
                       IRequest mIRequest,
                       ISuccess mISuccess,
                       IFailure mIFailure,
@@ -46,9 +40,6 @@ public class RestClient {
                       File file,
                       Context mContext) {
         this.URL = mUrl;
-        this.DOWNLOAD_DIR = download_dir;
-        this.EXTENSION = extension;
-        this.NAME = name;
         this.PARAMS = params;
         this.REQUEST = mIRequest;
         this.SUCCESS = mISuccess;
