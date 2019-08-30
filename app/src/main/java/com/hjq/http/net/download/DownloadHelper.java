@@ -19,7 +19,7 @@ private final static String FILE_PATH = Environment.getExternalStorageDirectory(
 */
 
 public class DownloadHelper {
-    public static void Download(String url, String path, onDownloadListener listener){
+    public static void Download(String url, String path, OnDownloadListener listener){
         DownloadAsync task = new DownloadAsync(url, path, listener);
         task.execute();
     }
@@ -27,10 +27,10 @@ public class DownloadHelper {
     public static class DownloadAsync extends AsyncTask<String, Integer, Boolean> {
         String mUrl;
         String mPath;
-        onDownloadListener mOnDownloadListener;
+        OnDownloadListener mOnDownloadListener;
         static int contentLength;
 
-        public DownloadAsync(String url, String path, onDownloadListener listener) {
+        public DownloadAsync(String url, String path, OnDownloadListener listener) {
             mUrl = url;
             mPath = path;
             mOnDownloadListener = listener;
@@ -137,10 +137,22 @@ public class DownloadHelper {
         }
     }
     //自定义接口用于实现请求成功，失败，进度，开始的处理
-    public interface onDownloadListener {
+    public interface OnDownloadListener {
         void onSuccess(int code, File file);
         void onFail(int code, File file, String msg);
         void onProgress(int progress, int downloadLength);
         void onStart();
+        // 有些时候可能我们并不需要实现onStart ，onProgress方法
+        abstract class OnSimpleDownloadListener implements OnDownloadListener {
+            @Override
+            public void onProgress(int progress, int downloadLength) {
+
+            }
+
+            @Override
+            public void onStart() {
+
+            }
+        }
     }
 }

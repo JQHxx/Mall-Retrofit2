@@ -6,10 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb86baa-e246-4aca-ba6b-301869c4429e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/download/DownloadHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ecb86baa-e246-4aca-ba6b-301869c4429e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +162,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/download/DownloadHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-1448">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -208,9 +205,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="91" />
-    <option name="y" value="153" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-37" />
+    <option name="y" value="50" />
     <option name="width" value="1916" />
     <option name="height" value="1005" />
   </component>
@@ -409,7 +406,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="153" width="1916" height="1005" extended-state="0" />
+    <frame x="-36" y="51" width="1916" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32977587" />
@@ -555,7 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hjq/http/net/download/DownloadHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="-1448">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
